@@ -1,0 +1,12 @@
+创建scrapy
+- scrapy startproject (Name)
+创建爬虫文件
+- scrapy genspider (spiderName) (www.xxx.com)
+执行爬虫文件
+- scrapy crawl (spiderName)
+
+
+数据存储
+- 终端指令
+    把返回值数据存储到指定目录
+    - scrapy crawl (spiderName) -o (path)
